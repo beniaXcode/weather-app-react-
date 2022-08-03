@@ -33,7 +33,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
       <div className="absolute w-full h-24 bg-black text-white z-20">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
           <div>
-            <h1 className="text-thBlue tracking-widest text-3xl">ANTON</h1>
+            <h1 className="text-thBlue tracking-widest text-3xl">Web3-APP</h1>
           </div>
 
           <div className="hidden lg:flex items-center">
@@ -79,7 +79,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
               </Link>
             </li>
           ))}
-          <GradientBtn className="mt-10 capitalize" title="get anton" />
+          <GradientBtn className="mt-10 capitalize" title="get BIT" />
         </ul>
       </div>
     </>

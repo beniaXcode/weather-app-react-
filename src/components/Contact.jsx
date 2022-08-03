@@ -2,7 +2,7 @@ import React from "react";
 import PageSection from "./PageSection";
 
 import contactImage from "../assets/contact-us.jpg";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -32,10 +32,14 @@ const Contact = () => {
 
           <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
             <div className="flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-105 duration-200 p-3 cursor-pointer">
+            <a href="https://www.linkedin.com/in/yahia-mohamed-benabbou-678a78222/">
               <FaLinkedin size={25} />
+</a> 
             </div>
             <div className="flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-105 duration-200 p-3 cursor-pointer">
-              <FaTwitter size={25} />
+            <a href="https://github.com/beniaXcode">
+              <FaGithub size={25} />
+              </a>
             </div>
           </div>
         </div>

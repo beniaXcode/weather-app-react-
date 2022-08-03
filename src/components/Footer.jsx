@@ -95,7 +95,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="my-12 text-center text-sm text-thBlue">
-          © Copyright 2022 Anton LLC
+          © Copyright 2022 <a className='cursor' href="https://www.benia.me">Benia.me</a>
         </p>
       </div>
     </div>
